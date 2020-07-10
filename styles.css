@@ -4,8 +4,8 @@ body {
 }
 
 h1 {
-  font-family: "Lobster", cursive;
-  font-size: 4.5rem;
+  font-family: 'Courgette', cursive;
+  font-size: 4.25rem;
   text-shadow: 5px 0 #9896f1;
   font-weight: bold;
   color: #5fe6b9;
@@ -13,7 +13,7 @@ h1 {
 }
 
 p {
-  font-family: "Indie Flower", cursive;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.5rem;
   color: #771d8d;
 }
@@ -50,7 +50,7 @@ img {
   background-image: linear-gradient(to bottom, #9896f1, #c881da);
   -webkit-border-radius: 7;
   -moz-border-radius: 7;
-  font-family: "Indie Flower", cursive;
+  font-family: 'Montserrat', sans-serif;
   border-radius: 7px;
   color: #ffff;
   font-size: 25px;
