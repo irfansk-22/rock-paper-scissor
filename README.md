@@ -10,7 +10,7 @@ In case if you don't know, Rock paper scissors is a hand game played between two
 
 - HTML 5
 - CSS 3
-- Vanila JavaScript
+- Vanilla JavaScript
 
 ## About this project
 
