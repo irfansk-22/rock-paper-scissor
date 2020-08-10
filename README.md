@@ -1,4 +1,4 @@
-![RPS Game Home Page]()
+![RPS Game Home Page](https://github.com/irfansk-22/rock-paper-scissor/blob/master/images/home.png)
 
 # Rock Paper Scissor
 
@@ -14,5 +14,5 @@ In case if you don't know, Rock paper scissors is a hand game played between two
 
 ## About this project
 
-- On clicking on play button the game generates random options (either rock, paper or scissor) for player 1 and player 2 and according to the game logic one of the player wins.
+- On pressing the play button the game generates random options (either rock, paper or scissor) for player 1 and player 2 and according to the game logic one of the player wins.
 - This game also has a feature of editing players name.
