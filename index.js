@@ -6,8 +6,8 @@ var selectP2 = document.querySelector(".player2");
 var selectImg1 = document.querySelector(".img1");
 var selectImg2 = document.querySelector(".img2");
 
-var playBtn = document.querySelector(".play-button").addEventListener("click", play);
-var editNamesBtn = document.querySelector(".edit-names-button").addEventListener("click", editNames);
+document.querySelector(".play-button").addEventListener("click", play);
+document.querySelector(".edit-names-button").addEventListener("click", editNames);
 
 //get dynamic year for copyright
 var currentYear = document.querySelector(".year");
@@ -49,22 +49,22 @@ function play() {
     selectImg1.setAttribute("src", "images/rps" + randomNumber1 + ".png");
     selectImg2.setAttribute("src", "images/rps" + randomNumber2 + ".png");
 
-    if (randomNumber1 == stone && randomNumber2 == paper) {
+    if (randomNumber1 === stone && randomNumber2 === paper) {
         player2Wins();
     }
-    else if (randomNumber1 == paper && randomNumber2 == stone) {
+    else if (randomNumber1 === paper && randomNumber2 === stone) {
         player1Wins();
     }
-    else if (randomNumber1 == stone && randomNumber2 == scissor) {
+    else if (randomNumber1 === stone && randomNumber2 === scissor) {
         player1Wins();
     }
-    else if (randomNumber1 == scissor && randomNumber2 == stone) {
+    else if (randomNumber1 === scissor && randomNumber2 === stone) {
         player2Wins();
     }
-    else if (randomNumber1 == scissor && randomNumber2 == paper) {
+    else if (randomNumber1 === scissor && randomNumber2 === paper) {
         player1Wins();
     }
-    else if (randomNumber1 == paper && randomNumber2 == scissor) {
+    else if (randomNumber1 === paper && randomNumber2 === scissor) {
         player2Wins();
     }
     else
