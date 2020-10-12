@@ -6,6 +6,9 @@ var selectP2 = document.querySelector(".player2");
 var selectImg1 = document.querySelector(".img1");
 var selectImg2 = document.querySelector(".img2");
 
+var playBtn = document.querySelector(".play-button").addEventListener("click", play);
+var editNamesBtn = document.querySelector(".edit-names-button").addEventListener("click", editNames);
+
 //get dynamic year for copyright
 var currentYear = document.querySelector(".year");
 var year = new Date().getFullYear();
@@ -79,7 +82,6 @@ function player2Wins() {
     selectImg2.classList.add("winner");
     selectImg1.classList.remove("winner");
 }
-
 
 function draw() {
     document.querySelector("h1").innerHTML = " Draw! 🤝";
