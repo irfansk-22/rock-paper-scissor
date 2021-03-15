@@ -1,17 +1,17 @@
-var p1 = "player 1";
-var p2 = "player 2";
+let p1 = "player 1";
+let p2 = "player 2";
 
-var selectP1 = document.querySelector(".player1");
-var selectP2 = document.querySelector(".player2");
-var selectImg1 = document.querySelector(".img1");
-var selectImg2 = document.querySelector(".img2");
+let selectP1 = document.querySelector(".player1");
+let selectP2 = document.querySelector(".player2");
+let selectImg1 = document.querySelector(".img1");
+let selectImg2 = document.querySelector(".img2");
 
 document.querySelector(".play-button").addEventListener("click", play);
 document.querySelector(".edit-names-button").addEventListener("click", editNames);
 
 //get dynamic year for copyright
-var currentYear = document.querySelector(".year");
-var year = new Date().getFullYear();
+let currentYear = document.querySelector(".year");
+let year = new Date().getFullYear();
 currentYear.innerHTML = year;
 
 //function for editing names
@@ -44,8 +44,8 @@ function play() {
 
     const stone = 1, paper = 2, scissor = 3;
 
-    var randomNumber1 = Math.floor((Math.random() * 3) + 1);
-    var randomNumber2 = Math.floor((Math.random() * 3) + 1);
+    let randomNumber1 = Math.floor((Math.random() * 3) + 1);
+    let randomNumber2 = Math.floor((Math.random() * 3) + 1);
     selectImg1.setAttribute("src", "images/rps" + randomNumber1 + ".png");
     selectImg2.setAttribute("src", "images/rps" + randomNumber2 + ".png");
 
